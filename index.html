@@ -24,7 +24,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -58,6 +58,9 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -69,7 +72,7 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                <div class="home__container container grid">
+                <div class="home__container abc grid">
                     <div class="home__content grid">
                         <div class="home__social">
                             <a href="https://www.linkedin.com" target="_blank" class="home__social-icon">
@@ -517,7 +520,7 @@
                     <div class="project__container container grid">
                         <div class="project__data">
                             <h2 class="project__title">You have a new project</h2>
-                            <p class="project__description">Contact me now and a 30% discount on your new project.</p>
+                            <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
                             <a href="#contact" class="button button--flex button--white">
                                 Contact Me
                                 <i class="uil uil-message project__icon button__icon"></i>
@@ -717,7 +720,9 @@
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
